@@ -4,9 +4,7 @@
 #include <ESP8266WiFi.h>
 #include <WiFiUdp.h>
 #include <array>
-
-const char *ssid     = "XXXX";
-const char *password = "XXXX";
+#include "secrets.h"
 
 Adafruit_MCP23X17 mcp;
 static constexpr uint8_t mcp_address = 0;
